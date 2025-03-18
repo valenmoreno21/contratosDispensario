@@ -4,7 +4,8 @@
     <title>Menú Segundario</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    
+    <base href="http://localhost/contratosDispensario/">
+
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -196,14 +197,14 @@
                 <li>
                     <a href="#">Registros De Usuarios</a>
                     <div class="submenu">
-                        <a href="http://localhost/practicas/empleados.php">Formulario Empleado</a>
-                        <a href="http://localhost/practicas/form_contra.php">Formulario Contratacion</a>
-                        <a href="http://localhost/practicas/supervisor.php">Formularion Supervisor</a>
-                        <a href="http://localhost/practicas/form_poliza.php">Formularion Polizas</a>
-                        <a href="http://localhost/practicas/formulariosalud.php">Formularion Salud</a>
-                        <a href="http://localhost/practicas/form_firmas.php">Formularion Firmas</a>
-                        <a href="http://localhost/practicas/cuenta_banco.php">Formularion Cuenta Bancaria</a>
-                        <a href="http://localhost/practicas/usuario.php">Formularion Usuarios</a>
+                        <a href="empleados.php">Formulario Empleado</a>
+                        <a href="form_contra.php">Formulario Contratacion</a>
+                        <a href="supervisor.php">Formularion Supervisor</a>
+                        <a href="form_poliza.php">Formularion Polizas</a>
+                        <a href="formulariosalud.php">Formularion Salud</a>
+                        <a href="form_firmas.php">Formularion Firmas</a>
+                        <a href="cuenta_banco.php">Formularion Cuenta Bancaria</a>
+                        <a href="usuario.php">Formularion Usuarios</a>
                         
                     </div>
                 </li>

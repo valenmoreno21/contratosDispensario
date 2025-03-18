@@ -11,6 +11,8 @@ $usuarios = "SELECT * FROM tabla_usuario"
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Formulario registro de usuarios</title>
 	<link rel="stylesheet" type="text/css" href="login.css">
+	<base href="http://localhost/contratosDispensario/">
+
 </head>
 <body>
 	
@@ -35,7 +37,7 @@ $usuarios = "SELECT * FROM tabla_usuario"
             <label for= "usuario">Usuario:</label> <input type="text" name="usuario"><br></br>
 			<label for= "contraseña">Contraseña:</label> <input type="text" name="contraseña"><br><br>
 			<input type="submit" name="" value="Ingresar"class="btn_enviar"><br><br><br><br>
-			<center><BUTTON> <a type="submit" id="export_data" name='generar_excel' value="Export to excel" href="http://localhost/practicas/exportar_usuarios.php">Ver base de datos en Excel </a></center>
+			<center><BUTTON> <a type="submit" id="export_data" name='generar_excel' value="Export to excel" href="exportar_usuarios.php">Ver base de datos en Excel </a></center>
 			
 		</div>
 		
